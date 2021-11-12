@@ -34,5 +34,4 @@ en:
 
     start:
       content: Hi there! To get your Token's price type /price
-    button-price:
-      - Price 💸
+
