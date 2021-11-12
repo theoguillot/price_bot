@@ -9,7 +9,7 @@ class TelegramWebhooksController < Telegram::Bot::UpdatesController
 
   def price!(*)
   #Change token address here
-    key = "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+    key = "0x87230146e138d3f296a9a77e497a2a83012e9bc5"
     token_info = HTTParty.get("https://api.pancakeswap.info/api/v2/tokens/#{key}").body
     data = JSON.parse(token_info)["data"]
     if data["price"].to_f < 0.1
