@@ -2137,3 +2137,5 @@ Processing by TelegramWebhooksController#price!
 Responded with message
 Completed in 179ms
 Stoped polling bot updates.
+Started bot poller.
+Started bot poller.
