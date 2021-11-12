@@ -2057,3 +2057,83 @@ Stoped polling bot updates.
   ↳ /home/tho/.rvm/gems/ruby-2.7.2/bin/rake:23
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/tho/.rvm/gems/ruby-2.7.2/bin/rake:23
+Started bot poller.
+Processing by TelegramWebhooksController#price!
+  Update: {"update_id":600921327,"message":{"message_id":369,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":-600518179,"title":"Price_bot","type":"group","all_members_are_administrators":true},"date":1636718410,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+Responded with message
+Completed in 196ms
+Processing by TelegramWebhooksController#price!
+  Update: {"update_id":600921328,"message":{"message_id":371,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":-600518179,"title":"Price_bot","type":"group","all_members_are_administrators":true},"date":1636718430,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+Completed in 1ms
+undefined local variable or method `key' for #<TelegramWebhooksController:0x000055acbd93b038>
+/home/tho/Desktop/Telegram/pricebotv2/price_bot/app/controllers/telegram_webhooks_controller.rb:13:in `price!'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/actionpack-5.2.6/lib/abstract_controller/base.rb:194:in `process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/actionpack-5.2.6/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/actionpack-5.2.6/lib/abstract_controller/callbacks.rb:41:in `process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller/rescue.rb:13:in `process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller/instrumentation.rb:32:in `block in process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/notifications.rb:168:in `instrument'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller/instrumentation.rb:15:in `instrument'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller/instrumentation.rb:30:in `process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activerecord-5.2.6/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller/session.rb:22:in `process_action'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/actionpack-5.2.6/lib/abstract_controller/base.rb:134:in `process'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller.rb:170:in `process'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller.rb:159:in `dispatch'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_controller.rb:107:in `dispatch'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:91:in `process_update'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:82:in `block (2 levels) in process_updates'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:80:in `each'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:80:in `block in process_updates'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:100:in `block in reload!'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:107:in `block in reloading_code'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/reloader.rb:73:in `block in wrap'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/activesupport-5.2.6/lib/active_support/reloader.rb:72:in `wrap'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:106:in `reloading_code'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:96:in `reload!'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:79:in `process_updates'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:59:in `run'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:47:in `start'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/telegram/bot/updates_poller.rb:21:in `start'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/telegram-bot-0.14.4/lib/tasks/telegram-bot.rake:12:in `block (3 levels) in <top (required)>'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:281:in `block in execute'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:281:in `each'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:281:in `execute'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:219:in `block in invoke_with_call_chain'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:199:in `synchronize'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/task.rb:188:in `invoke'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:160:in `invoke_task'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:116:in `block (2 levels) in top_level'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:116:in `each'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:116:in `block in top_level'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:125:in `run_with_threads'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:110:in `top_level'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:83:in `block in run'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:186:in `standard_exception_handling'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/lib/rake/application.rb:80:in `run'
+/home/tho/.rvm/gems/ruby-2.7.2/gems/rake-13.0.6/exe/rake:27:in `<top (required)>'
+/home/tho/.rvm/gems/ruby-2.7.2/bin/rake:23:in `load'
+/home/tho/.rvm/gems/ruby-2.7.2/bin/rake:23:in `<main>'
+/home/tho/.rvm/gems/ruby-2.7.2/bin/ruby_executable_hooks:22:in `eval'
+/home/tho/.rvm/gems/ruby-2.7.2/bin/ruby_executable_hooks:22:in `<main>'
+Processing by TelegramWebhooksController#price!
+  Update: {"update_id":600921329,"message":{"message_id":372,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":-600518179,"title":"Price_bot","type":"group","all_members_are_administrators":true},"date":1636718438,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+Responded with message
+Completed in 253ms
+Stoped polling bot updates.
+Started bot poller.
+Processing by TelegramWebhooksController#price!
+  Update: {"update_id":600921330,"message":{"message_id":374,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":2009254635,"first_name":"Théo","last_name":"Guillot","type":"private"},"date":1636718570,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+Responded with message
+Completed in 145ms
+Processing by TelegramWebhooksController#price!
+  Update: {"update_id":600921331,"message":{"message_id":376,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":2009254635,"first_name":"Théo","last_name":"Guillot","type":"private"},"date":1636718586,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+Responded with message
+Completed in 179ms
+Stoped polling bot updates.
