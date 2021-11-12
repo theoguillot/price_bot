@@ -2027,3 +2027,9 @@ Processing by TelegramWebhooksController#price!
   Update: {"update_id":600921318,"message":{"message_id":351,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":-600518179,"title":"Price_bot","type":"group","all_members_are_administrators":true},"date":1636712016,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
 Responded with message
 Completed in 170ms
+Started bot poller.
+Processing by TelegramWebhooksController#price!
+  Update: {"update_id":600921326,"message":{"message_id":367,"from":{"id":2009254635,"is_bot":false,"first_name":"Théo","last_name":"Guillot","language_code":"en"},"chat":{"id":-600518179,"title":"Price_bot","type":"group","all_members_are_administrators":true},"date":1636717544,"text":"/price","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+Responded with message
+Completed in 201ms
+Stoped polling bot updates.
