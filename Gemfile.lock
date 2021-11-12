@@ -241,7 +241,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     telegram-bot (0.14.4)
       actionpack (>= 4.0, < 6.1)
       activesupport (>= 4.0, < 6.1)
@@ -291,7 +290,6 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-commands-rspec
-  sqlite3
   telegram-bot (~> 0.14.4)
   turbolinks (~> 5)
   tzinfo-data
