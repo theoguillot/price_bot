@@ -8,4 +8,4 @@ To change which token price the bot gives you go to "price_bot/app/controllers/t
 ## Commands
 
 - `/start` - Greeting.
-- '/price' - Get your token price
+- `/price` - Get your token price
